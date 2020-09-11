@@ -1,11 +1,11 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { BrowserRouter as Router } from "react-router-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { HashRouter as Router } from 'react-router-dom';
 
-import "./styles/main.scss";
+import './styles/main.scss';
 
-import { ContextProvider } from "./Context";
-import App from "./App";
+import { ContextProvider } from './Context';
+import App from './App';
 
 ReactDOM.render(
   <ContextProvider>
@@ -13,5 +13,5 @@ ReactDOM.render(
       <App />
     </Router>
   </ContextProvider>,
-  document.getElementById("root")
+  document.getElementById('root')
 );
