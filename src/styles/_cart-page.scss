@@ -1,0 +1,14 @@
+/* CART PAGE */
+main.cart-page { padding: 10px; }
+
+.cart-page > h1 { text-align: center; }
+
+.cart-page .total-cost {
+  text-align: right;
+  font-size: 1.3em;
+}
+
+.cart-page div.order-button {
+  display: flex;
+  justify-content: center;
+}

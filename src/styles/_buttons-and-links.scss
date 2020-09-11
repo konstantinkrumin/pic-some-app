@@ -1,0 +1,23 @@
+@import 'variables';
+
+/* BUTTONS AND LINKS */
+div.order-button > button {
+  border-color: $black-color;
+  cursor: pointer;
+  padding: 15px;
+  transition: all 0.2s ease-in-out;
+
+  &:focus { outline: none; }
+
+  &:disabled { border-color: lightgray; }
+}
+
+a {
+  text-decoration: none;
+
+  &:visited, 
+  &:hover,
+  &:active {
+    color: $light-blue-color;
+  }
+}
